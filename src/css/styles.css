@@ -1,0 +1,53 @@
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 94% 6%;
+	grid-template-areas: 
+		"desktop"
+		"dock";
+}
+
+.icon-container {
+	display: inline-block;
+	max-width: max-content;
+	text-align: center;
+	font-size: large;
+	cursor: pointer;
+}
+
+#desktop {
+	background-image: url(../images/bliss.jpg);
+	background-repeat: no-repeat;
+	grid-area: "desktop";
+}
+
+#dock {
+	grid-area: "dock";
+	display: inline-block;
+	background-color: rgb(248, 248, 248);
+}
+.dockIcon {
+	max-width: 40px;
+	max-height: fit-content;
+	margin-left: 8px;
+}
+/*Focuse frame window*/
+my-dock-window {
+	position: absolute;
+}
+
+.focused {
+	z-index: 100;
+}
+
+.notfocused {
+	z-index: 10;
+}

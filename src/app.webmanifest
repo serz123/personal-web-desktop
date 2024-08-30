@@ -1,0 +1,17 @@
+{
+  "name": "Memory game",
+  "short_name": "Memory",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#ffe001",
+  "description": "A simple memory game!",
+  "icons": [{
+  "src": "images/1531927-200.png",
+  "sizes": "200x200",
+  "type": "image/png"
+  }, {
+  "src": "images/1531927-200.png",
+  "sizes": "200x200",
+  "type": "image/png"
+  }]
+  }

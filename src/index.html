@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="./favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+  <link rel="manifest" href="/app.webmanifest" />
+  <title>Examination Assignment - PWD</title>
+  <script type="module" src="./js/index.js"></script>
+  <script type="module" src="./js/components/my-sockets-messages/index.js"></script>
+  <script type="module" src="./js/components/my-memory-game/index.js"></script>
+  <script type="module" src="./js/components/my-dock-window/index.js"></script>
+  <script type="module" src="./js/components/my-recorder/index.js"></script>
+</head>
+
+<body>
+  <div id="desktop">
+  <figure class="icon-container" draggable="true">
+    <img class="icon" id="memoryicon" tabindex="0" src="./images/memory.png" alt="Memory icon">
+    <figcaption>Memory</figcaption>
+  </figure>
+  <figure class="icon-container"  draggable="true">
+    <img class="icon" id="chaticon" tabindex="0" src="./images/chat.png" alt="Chat icon">
+    <figcaption>Chat</figcaption>
+  </figure>
+  <figure class="icon-container" tabindex="0" draggable="true">
+    <img class="icon" id="recordericon" src="./images/note.png" alt="Note icon">
+    <figcaption>Recorder</figcaption>
+  </figure>
+</div>
+  <div id="dock">
+    <img class="dockIcon" id="memoryDockIcon" tabindex="0" src="./images/memory.png" alt="Memory dock icon">
+    <img class="dockIcon" id="chatDockIcon" tabindex="0" src="./images/chat.png" alt="Chat dock icon">
+    <img class="dockIcon" id="recorderDockIcon" src="./images/note.png" alt="Note dock icon">
+  </div>
+</body>
+
+</html>
